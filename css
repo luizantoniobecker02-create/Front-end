@@ -1,0 +1,66 @@
+:root {
+    --pumpkim-orange: #ee5622;
+    --dark-purple: #432534;
+    --beige: #efd6ac;
+    --pastel-violet: #7678ed;
+    --blood-red: #9a031e;
+
+    --cor-primaria: #3498db;
+    --cor-secundaria: #6c757d;
+    --cor-sucesso: #28a745;
+    --cor-aviso: #ffc107;
+    --cor-erro: #dc3545;
+
+    --cor-texto-principais: #0A090C;
+    --cor-texto-secundarios: #313131;
+
+    --font-de-legenda:"Arial";
+
+
+    --font-principal: 'Roboto', sans-serif;
+    --font-secundaria: 'Noto sans', sans-serif;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-principal);
+}
+
+.menu {
+    background-color: var(--midnight-violet-2);
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    color: var(--cor-texto-branco);
+    float: left;
+}
+
+
+.brand {
+    font-size: 22pt;
+    width: 50px;
+    float: left;
+}
+
+.menu-elementos {
+    width: 500px;
+    float: left;
+}
+
+.menu-elementos a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor-texto-branco);
+    font-size: 18pt;
+}
+
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
