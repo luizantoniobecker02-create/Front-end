@@ -11,8 +11,9 @@
     --cor-aviso: #ffc107;
     --cor-erro: #dc3545;
 
-    --cor-texto-principais: #0A090C;
-    --cor-texto-secundarios: #313131;
+    --cor-texto-preto: #0A090C;
+    --cor-texto-cinza: #313131;
+    --cor-texto-branco:#FFFFFF;
 
     --font-de-legenda:"Arial";
 
@@ -31,13 +32,18 @@
 body {
     font-family: var(--font-principal);
 }
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
 
 .menu {
-    background-color: var(--midnight-violet-2);
+    background-color: var(--pumpkim-orange);
     width: 100%;
     max-width: 1920px;
     margin: auto;
-    color: var(--cor-texto-branco);
+    color: var(--cor-texto-preto);
     float: left;
 }
 
@@ -56,11 +62,16 @@ body {
 .menu-elementos a {
     padding: 10px;
     text-decoration: none;
-    color: var(--cor-texto-branco);
+    color: var(--cor-texto-preto);
     font-size: 18pt;
 }
 
 .banner-img{
     width: 100%;
     height: 100%;
+}
+
+.bloco{
+    width: 200px;
+    float: right;
 }
