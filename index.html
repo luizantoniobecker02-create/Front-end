@@ -1,94 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Festa halloween</title>
-    <!-- Importação de fonts exeterna -->
+
+    <title>Festa Halloween</title>
+
+    <!-- Importação de fontes externas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <!-- Importação de icones -->
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Importação de ícones -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./Untitled-1 css.css">
 
 </head>
 
 <body>
+
+    <!-- CABEÇALHO -->
+
     <header class="cabecalho">
+
         <nav class="menu">
+
+            <!-- Logo -->
+
             <div class="brand">
                 <i class="ph ph-skull"></i>
             </div>
 
+
+            <!-- Botão do menu hambúrguer -->
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <label for="menu-toggle" class="btn-menu">
+
+                <i class="ph ph-list icone-abrir"></i>
+
+                <i class="ph ph-x icone-fechar"></i>
+
+            </label>
+
+
+            <!-- Links do menu -->
+
             <div class="menu-elementos">
-                <a href="">Início</a>
-                <a href="">Atrações</a>
-                <a href="">Sobre o Evento</a>
-                <a href="">Contato</a>
+
+                <a href="#inicio">Início</a>
+
+                <a href="#atracoes">Atrações</a>
+
+                <a href="#sobre">Sobre o Evento</a>
+
+                <a href="#contato">Contato</a>
+
             </div>
+
         </nav>
+
+
+        <!-- BANNER -->
+
         <div class="banner">
-            <img class="banner-img" src="./img/halloween img site.jpeg ">
+
+            <img class="banner-img"
+                src="./imagem halloween.jpg"
+                alt="Banner da festa Halloween">
+
         </div>
+
     </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+
     <main>
+
+
+        <!-- INÍCIO -->
+
         <section id="inicio">
-            <!-- Vamos criar os destaques do site aqui -->
+
+            <!-- Destaques do site -->
+
         </section>
+
+
+        <!-- ATRAÇÕES -->
+
         <section id="atracoes">
-            <div class="bloco">
-            </div class="container">
-            <h3 class="sub-titulo">Quais serão as atrações no evento?</h3>
-            <div class="sobre-conteudo">
-                <ul>
-                    <li>DjGugga</li>
-                    <li>DjAlinne</li>
-                    <li>Djtayffer</li>
-                </ul>
-            </div>
 
-           
-            
-        </section>
-        <section id="sobre">
             <div class="container">
-                <h3 class="sub-titulo">Perguntas sobre o evento:</h3>
+
+                <h3 class="sub-titulo">
+                    Quais serão as atrações no evento?
+                </h3>
+
                 <div class="sobre-conteudo">
+
                     <ul>
-                        <li>Quando sera o evento?</li>
-                        <li>Aonde encontro ingressos para comprar?</li>
-                        <li>Qual sera o dress-code?</li>
+
+                        <li>DjGugga</li>
+
+                        <li>DjAlinne</li>
+
+                        <li>Djtayffer</li>
+
                     </ul>
+
                 </div>
 
-                <h3 class="sub-titulo">Regras do evento:</h3>
-                <div class="sobre-conteudo">
-                    <ol>
-                        <li>Proibida a entrada de menores de 18 anos, apresentar documento na entrada</li>
-                        <li>A entrada de bebidas tragas de fora nao sao permitidas</li>
-                        <li>Uso de ilicitos ou atos obcenos, sera resultado a expulsão do evento</li>
-                    </ol>
-                </div>
-            
             </div>
-            <!-- Sobre o evento -->
+
         </section>
-        <section id="contato">
-            <!-- Formulario simples para contato -->
+
+
+        <!-- SOBRE O EVENTO -->
+
+        <section id="sobre">
+
+            <div class="container">
+
+
+                <!-- PERGUNTAS -->
+
+                <h3 class="sub-titulo">
+                    Perguntas sobre o evento:
+                </h3>
+
+
+                <div class="sobre-conteudo perguntas">
+
+
+                    <!-- PERGUNTA 1 -->
+
+                    <div class="pergunta">
+
+                        <strong>
+                            Quando será o evento?
+                        </strong>
+
+                        <p class="resposta">
+                            Data do evento: 31/10/2026 às 22h!
+                        </p>
+
+                    </div>
+
+
+                    <!-- PERGUNTA 2 -->
+
+                    <div class="pergunta">
+
+                        <strong>
+                            Aonde encontro ingressos para comprar?
+                        </strong>
+
+                        <p class="resposta">
+                            Em nossos grupos ou contatos diretos de
+                            revendedores oficiais.
+                        </p>
+
+                    </div>
+
+
+                    <!-- PERGUNTA 3 -->
+
+                    <div class="pergunta">
+
+                        <strong>
+                            Qual será o dress-code?
+                        </strong>
+
+                        <p class="resposta">
+                            Vista sua melhor fantasia,
+                            a mais horripilante que tiver!
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- REGRAS DO EVENTO -->
+
+                <h3 class="sub-titulo">
+                    Regras do evento:
+                </h3>
+
+
+                <div class="sobre-conteudo">
+
+                    <ol>
+
+                        <li>
+                            Proibida a entrada de menores de 18 anos,
+                            apresentar documento na entrada.
+                        </li>
+
+                        <li>
+                            A entrada de bebidas trazidas de fora
+                            não é permitida.
+                        </li>
+
+                        <li>
+                            O uso de ilícitos ou atos obscenos
+                            resultará na expulsão do evento.
+                        </li>
+
+                    </ol>
+
+                </div>
+
+            </div>
+
         </section>
+
+
+        <!-- CONTATO -->
+
+        <!-- Contato -->
+<section id="contato">
+
+    <div class="container">
+
+        <h2 class="titulo">
+            Entre em contato conosco!
+        </h2>
+
+        <div class="blocos">
+
+            <article class="bloco contatos">
+
+                <div class="contato">
+                    <i class="ph ph-phone"></i>
+
+                    <div>
+                        <h3>Revendedor 1</h3>
+                        <p>(45) 99901-2345</p>
+                    </div>
+                </div>
+
+                <div class="contato">
+                    <i class="ph ph-phone"></i>
+
+                    <div>
+                        <h3>Revendedor 2</h3>
+                        <p>(45) 99903-0102</p>
+                    </div>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
     </main>
 
-    <footer></footer>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            Festa Halloween © 2026
+        </p>
+
+    </footer>
+
+
 </body>
 
 </html>
